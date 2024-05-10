@@ -1,0 +1,140 @@
+/* *************** */
+/* MAX-WIDTH 1124px */
+/* *************** */
+
+@media (max-width: 1124px) {
+  .section-padding {
+    padding: 0 2rem;
+  }
+  /* navbar */
+  .menu-bar {
+    display: block;
+    font-size: 2rem;
+    color: #345a67;
+  }
+  .credit-menu-list {
+    display: none;
+    gap: 1rem;
+    position: absolute;
+    background-color: hsla(0, 0%, 100%, 0.95);
+    right: 2rem;
+    top: 6.5rem;
+    flex-direction: column;
+    width: 250px;
+  }
+
+  .credit-menu-list a {
+    padding: 0.8rem 2rem;
+    border-bottom: 0.5px solid #ddd;
+  }
+
+  #menu-bar-checkbox,
+  .Credit-login {
+    display: none;
+  }
+
+  header:has(#menu-bar-checkbox:checked) .credit-menu-list {
+    display: flex;
+  }
+
+  /* homepage */
+  .homepage-discription {
+    padding: 0 2rem;
+  }
+  .pricing-container {
+    grid-template-columns: 1fr 1fr;
+  }
+  .credit-score {
+    grid-template-columns: 1fr;
+    padding: 2rem;
+  }
+  .score-text-box {
+    grid-row: 2;
+  }
+  /* how it works */
+  .hero-section {
+    padding: 3rem 2rem 10rem;
+  }
+  .hero-image-inner-part {
+    padding: 2rem 0;
+    text-align: center;
+  }
+  .hero-discription {
+    width: 100%;
+  }
+  .how-it-works .container {
+    grid-template-columns: 1fr;
+    margin: 0 5.4rem;
+  }
+  .step-text-box {
+    grid-row: 2;
+  }
+
+  /* build credit */
+  .card-section {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* Blogs */
+  .blogs-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* contact */
+  .contact-content {
+    grid-template-columns: 1fr;
+  }
+
+  /* footer */
+  .footer-section {
+    padding: 3rem 2rem;
+  }
+  .footer-links .links {
+    flex-direction: row;
+  }
+}
+
+/* *************** */
+/* MAX-WIDTH 865px */
+/* *************** */
+
+@media (max-width: 865px) {
+
+  .section-padding{
+    padding: 0 2rem;
+  }
+
+  .logo-section {
+    flex-direction: column;
+  }
+  /* .fee-categories span{
+   width: auto;
+  } */
+
+   /* .hero-section {
+    padding: 3rem 2rem 10rem;
+  } */
+
+  .score-text-box,
+  .score-text-box p {
+    text-align: center;
+    font-size: 1.6rem;
+    padding-right: 2rem;
+  }
+
+  /* build credit */
+  .card-section {
+    grid-template-columns: 1fr;
+  }
+
+  /* Blogs */
+  .blogs-cards {
+    grid-template-columns: 1fr;
+  }
+
+  /* footer */
+  .footer-section {
+    grid-template-columns: 1fr;
+  }
+}
+

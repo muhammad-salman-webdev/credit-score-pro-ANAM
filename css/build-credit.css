@@ -1,0 +1,53 @@
+
+
+
+.hero-image-inner-part{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("../img/build credit img/hero.webp");
+}
+
+/****************/
+/* CARD SECTION */
+/****************/
+
+.card-section {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  margin-top: 7.4rem;
+  gap: 2rem;
+  row-gap: 8.6rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 14px;
+  text-align: center;
+  overflow: hidden;
+  box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.06);
+}
+
+.card img {
+  padding: 2rem;
+  width: 100%;
+}
+
+.card h3 {
+  font-family: "roboto", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-top: 1rem;
+  margin-bottom: 1.4rem;
+}
+
+.card p {
+  font-family: "poppins", sans-serif;
+  padding: 0 2.6rem;
+  font-size: 1.8rem;
+  color: #354a67;
+  margin-bottom: 4.8rem;
+}
+
+.card-btn .btn-light{
+  margin-bottom: 2rem;
+}
+

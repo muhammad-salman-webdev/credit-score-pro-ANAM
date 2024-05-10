@@ -1,0 +1,302 @@
+/****************/
+/* HOMEPGAE-HERO-SECTION */
+/****************/
+
+.homepage-hero-section {
+  font-family: "lato", sans-serif;
+  padding: 3.2rem 0rem;
+  background-image: linear-gradient(to bottom, #ebf7fd 70%, #fff 30%);
+}
+
+.hero-text-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-heading-primary {
+  font-family: "lato", sans-serif;
+  font-size: 4.5rem;
+  text-transform: uppercase;
+  font-weight: 900;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.hero-heading-secondary {
+  font-family: "lato", sans-serif;
+  text-align: center;
+  justify-content: center;
+  font-size: 3.2rem;
+  font-weight: 700;
+  margin-bottom: 2.8rem;
+}
+
+.hero-heading-secondary img {
+  width: 60px;
+  position: relative;
+  top: 8px;
+}
+
+.homepage-discription {
+  padding: 0 24rem;
+  font-family: "poppins", sans-serif;
+  font-size: 2rem;
+  color: #466289;
+  text-align: center;
+  margin-bottom: 4.8rem;
+}
+
+.hero-btn {
+  margin-bottom: 4.8rem;
+}
+
+
+.hero-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-img img {
+  width: 100%;
+  position: relative;
+}
+
+.hero-img i{
+  position: absolute;
+  font-size: 9.6rem;
+  font-weight: 500;
+  color: #fff;
+  
+}
+
+/* *************** */
+/* LOGO SECTION */
+/* *************** */
+
+.logo-section {
+  padding: 4.8rem 0 2.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.logo-section .image1 {
+  width: 250px;
+}
+
+.logo-section .image2 {
+  width: 400px;
+}
+
+.logo-section span {
+  font-family: "poppins", sans-serif;
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+/* ********** */
+/* *FEE SECTION* */
+/* ********** */
+
+.fee-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.fee-header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* padding: 2rem 4.8rem; */
+  margin-bottom: 1rem;
+  border-radius: 12px;
+  height: 100px;
+  box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.08);
+}
+
+.fee-header span {
+  font-family: "lato", sans-serif;
+  font-size: 2.4rem;
+  font-weight: 900;
+  margin-left: 6.2rem;
+}
+
+.fee-header .img1 {
+  width: 20%;
+  margin-left: 14rem;
+}
+
+.fee-header .img2 {
+  width: 30%;
+}
+
+.fee-categories {
+  display: flex;
+  font-size: 1.6rem;
+  font-family: "lato", sans-serif;
+  background-color: #f6f6f8;
+  margin: 1rem 0;
+  padding: 2rem 0;
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.08);
+}
+
+.fee-categories span {
+  display: flex;
+  justify-content: space-evenly;
+  width: 33.33%;
+  color: #354a67;
+}
+
+.fee-categories .price {
+  font-family: "lato", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #a5d029;
+}
+
+.price p {
+  display: inline-block;
+  color: #333;
+}
+
+/* .fee-categories .packeges {
+  text-align: center;
+} */
+
+/* ********** */
+/* *PRICING SECTION* */
+/* ********** */
+
+.pricing-section {
+  margin: 9.6rem 0;
+}
+
+.heading-primary {
+  font-family: "lato", sans-serif;
+  font-size: 3.6rem;
+  font-weight: 900;
+  color: #111;
+  text-align: center;
+  padding-bottom: 2.8rem;
+}
+
+.pricing-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr ;
+  gap: 4rem;
+  padding: 2rem 4rem;
+  background-color: #f6f6f8;
+  border-radius: 12px;
+}
+
+.individual-portion h2 {
+  font-family: "lato", sans-serif;
+  font-size: 2rem;
+  color: #111;
+  padding: 2rem 0;
+}
+
+.individual-portion h3 {
+  font-family: "poppins", sans-serif;
+  font-size: 3.6rem;
+  color: #354a67;
+}
+
+.individual-portion span {
+  font-family: "lato", sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #a5d029;
+  line-height: 1;
+}
+
+.individual-portion p {
+  font-size: 1.4rem;
+  color: #466289;
+  padding: 2.4rem 0;
+}
+
+
+.feature-portion h3 {
+  font-family: "lato", sans-serif;
+  font-size: 2rem;
+  color: #111;
+  padding: 2rem 0;
+}
+
+.features{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  list-style: none;
+}
+
+.features li{
+ display: flex;
+ /* align-items: center; */
+ line-height: 2;
+}
+
+.features i{
+  line-height: 1.6;
+  font-size: 1.8rem;
+  color: #354a67;
+  padding-right: 0.8rem;
+}
+
+.features span{
+  font-size: 1.3rem;
+  color: #466289;
+}
+
+.featuers-furthur .features{
+  margin-top: 6.4rem;
+}
+
+
+.bonus-features-portion h3{
+  font-family: "lato", sans-serif;
+  font-size: 2rem;
+  color: #111;
+  padding: 2rem 0;
+}
+
+.bonus-features-portion .features span{
+  color: #a5d029;
+  font-weight: 700;
+  padding-top: 0.5rem;
+  line-height: 1.6;
+}
+
+/* ********** */
+/* *PRICING SECTION* */
+/* ********** */
+
+.credit-score{
+  /* padding: 0rem 8rem; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* gap: 6.2rem; */
+  /* margin: 10rem 1rem 0; */
+}
+
+.score-text-box h2{
+  font-family: "lato", sans-serif;
+  font-size: 3.4rem;
+  font-weight: 900;
+}
+
+.score-text-box p{
+  font-size: 2rem;
+  color: #466289;
+  padding: 2rem 0;
+}
+
+.score-img-box{
+  width: 100%;
+}

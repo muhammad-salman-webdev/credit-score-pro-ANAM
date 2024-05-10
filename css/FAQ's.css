@@ -1,0 +1,65 @@
+
+.hero-image-inner-part{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("../img/Faq's-img/faq's.webp");
+  background-blend-mode: multiply;
+
+}
+
+
+/****************/
+/* FAQ's SECTION */
+/****************/
+
+.body-section{
+  margin: 4rem 0;
+}
+
+.questions{
+  background-color: #f6f6f8;
+}
+
+.questions li{
+  font-family: 'lato' , sans-serif;
+  list-style: none;
+}
+
+.questions label{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #354a67;
+  padding: 2rem 3.2rem;
+}
+
+.questions h3{
+  display: inline;
+  font-size: 2rem;
+  font-weight: 500;
+  color: #354a67;  
+}
+
+.questions input{
+  display: none;
+}
+
+.questions li i{
+  font-size: 2.4rem;
+  color: #354a67;
+}
+
+.questions p{
+  display: none;
+  height: 0;
+  font-family: "lato", sans-serif;
+  font-size: 1.8rem;
+  color: #466289;
+  padding: 2rem 3.2rem;
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.questions-list li:has( label .angle-down:checked) p{
+  display: block;
+  opacity: 1;
+  height: 100%;
+}

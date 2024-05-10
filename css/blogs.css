@@ -1,0 +1,59 @@
+/****************/
+/* BLOGS-SECTION */
+/****************/
+
+.blogs-section h1{
+  font-family: "lato", sans-serif;
+  font-size: 5rem;
+  font-weight: 900;
+  text-align: center;
+  padding-bottom: 4.8rem;
+}
+
+.blogs-cards{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 2rem;
+}
+
+.cards{
+  box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.06);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.cards img{
+  padding: 2rem;
+  width: 100%;
+  height: 50%;
+  transition: transform 0.4s;
+}
+
+.cards h2{
+  font-family: "lato", sans-serif;
+  font-size: 2.4rem;
+  color: #333;
+  padding: 2rem 3.8rem;
+}
+
+.cards p{
+  font-size: 1.8rem;
+  color: #555;
+  padding: 0 3.8rem;
+}
+
+
+ .btn-dark:link,
+ .btn-dark:checked{
+
+  padding: 0.8rem 2.4rem;
+  margin: 1.2rem 3.8rem 3.8rem;
+}
+
+
+.cards:hover img{
+  transform: rotate(4deg) scale(1.03) ;
+  opacity: 0.6;
+}
+
+
